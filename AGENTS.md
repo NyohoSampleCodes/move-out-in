@@ -20,9 +20,14 @@
 | [docs/07_read_excel.md](docs/07_read_excel.md) | openpyxl で Excel を読む |
 | [docs/08_build_json.md](docs/08_build_json.md) | 辞書と json でデータを整形する |
 | [docs/09_visualize_bar.md](docs/09_visualize_bar.md) | matplotlib で棒グラフ |
-| [docs/10_visualize_interactive.md](docs/10_visualize_interactive.md) | plotly でインタラクティブな図 |
-| [docs/11_multi_year.md](docs/11_multi_year.md) | 複数年データへの拡張 |
-| [docs/12_next_steps.md](docs/12_next_steps.md) | まとめと発展課題 |
+| [docs/10_visualize_interactive.md](docs/10_visualize_interactive.md) | plotly でインタラクティブな図（サンキー） |
+| [docs/11_visualize_circular.md](docs/11_visualize_circular.md) | 円環レイアウト＋ Dash による hover 連動 |
+| [docs/12_multi_year.md](docs/12_multi_year.md) | 複数年データへの拡張 |
+| [docs/13_next_steps.md](docs/13_next_steps.md) | まとめと発展課題 |
+
+## 開発メモ（学習ステップ外）
+
+- [docs/note_smooth_flow_animation.md](docs/note_smooth_flow_animation.md) — vis_peopleflow が流れるアニメーションを CSS だけで滑らかに実現している仕組みと、Dash で同じことをやるための道筋
 
 ## ディレクトリ構成
 

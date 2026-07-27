@@ -78,4 +78,4 @@ uv run python steps/10_visualize_interactive.py
 1. `top_flows = sorted_flows[:30]` の `30` を `10` や `100` に変えて、見やすさがどう変わるか確認してみましょう。
 2. 特定の都道府県（例: 東京都）が関わる `flows` だけを `if flow[0] == 12 or flow[1] == 12:` のような条件で絞り込んで、その県だけの出入りを図にしてみましょう（東京都は `prefs` の12番目、インデックス12です）。
 
-次は [11. 複数年のデータをまとめて扱う](11_multi_year.md) に進んでください。
+次は [11. 円環レイアウトと hover 連動](11_visualize_circular.md) に進んでください。

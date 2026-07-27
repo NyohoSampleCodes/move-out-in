@@ -1,4 +1,4 @@
-# 11. 複数年のデータをまとめて扱う
+# 12. 複数年のデータをまとめて扱う
 
 ## 今回学ぶこと
 
@@ -97,7 +97,7 @@ plt.savefig("data/processed/trend.png")
 ## 実際に動かしてみる
 
 ```
-uv run python steps/11_multi_year.py
+uv run python steps/12_multi_year.py
 ```
 
 `data/processed/migration_all.json` と `data/processed/trend.png` ができます。2023年のファイルがない状態なので、実行中に「2023 年のファイルが見つからないのでスキップします」と表示されるはずです。
@@ -107,4 +107,4 @@ uv run python steps/11_multi_year.py
 1. 06 の発展課題で 2023年のデータをダウンロードして `data/raw/idou_2023.xlsx` として保存し、もう一度実行してみましょう。スキップされずに処理されるはずです。
 2. `"東京都"` を別の都道府県名に変えて、その県の推移を見てみましょう。地方の県と都市部の県で、折れ線の形がどう違うか比べてみてください。
 
-次は [12. まとめと次の一歩](12_next_steps.md) に進んでください。
+次は [13. まとめと次の一歩](13_next_steps.md) に進んでください。
