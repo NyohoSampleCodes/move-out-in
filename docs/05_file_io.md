@@ -61,7 +61,7 @@ with open("data/processed/hello.txt", "r", encoding="utf-8") as file:
 ## 実際に動かしてみる
 
 ```
-uv run python steps/05_file_io.py
+python steps/05_file_io.py
 ```
 
 実行すると `data/processed/hello.txt` が作られます。エディタで開いて中身を確認してみましょう。

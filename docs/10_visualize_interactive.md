@@ -68,7 +68,7 @@ fig.write_html("data/processed/flows_2024.html")
 ## 実際に動かしてみる
 
 ```
-uv run python steps/10_visualize_interactive.py
+python steps/10_visualize_interactive.py
 ```
 
 `data/processed/flows_2024.html` ができるので、ブラウザで開いてみてください。帯にマウスを乗せると「〇〇県 → △△県: ×××人」のように表示され、ドラッグで都道府県のブロックを動かすこともできます。

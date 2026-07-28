@@ -91,7 +91,7 @@ for row_index in range(47):
 ## 実際に動かしてみる
 
 ```
-uv run python steps/07_read_excel.py
+python steps/07_read_excel.py
 ```
 
 ## 演習

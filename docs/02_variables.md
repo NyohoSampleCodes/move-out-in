@@ -58,7 +58,7 @@ print(net)  # -6285
 `steps/02_variables.py` に、ここで説明したコードをまとめてあります。実行してみましょう。
 
 ```
-uv run python steps/02_variables.py
+python steps/02_variables.py
 ```
 
 ファイルを開いて、数値を書き換えたり `print()` を増やしたりして、表示がどう変わるか試してみてください。

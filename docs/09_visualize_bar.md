@@ -75,7 +75,7 @@ plt.savefig("data/processed/net_2024.png")
 ## 実際に動かしてみる
 
 ```
-uv run python steps/09_visualize_bar.py
+python steps/09_visualize_bar.py
 ```
 
 `data/processed/net_2024.png` が作られます。開いてみると、東京都・神奈川県・埼玉県・千葉県・大阪府あたりが大きく赤（転入超過）に、多くの県が青（転出超過）になっているはずです。08 の演習で目で探した最大・最小の都道府県と一致しているか確認してみましょう。

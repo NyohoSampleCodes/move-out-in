@@ -47,14 +47,14 @@ data/raw/idou_2024.xlsx
 同じ年のデータをもう一度取得したいときは、対応する Excel の URL を登録した `steps/06_get_data.py` も使えます。引数なしなら登録済みの4年分を取得し、年を指定すればその年だけ取得します。
 
 ```
-uv run python steps/06_get_data.py
-uv run python steps/06_get_data.py 2024
+python steps/06_get_data.py
+python steps/06_get_data.py 2024
 ```
 
 すでにファイルがある年は上書きしません。e-Stat から取り直す場合は `--force` を付けてください。
 
 ```
-uv run python steps/06_get_data.py 2024 --force
+python steps/06_get_data.py 2024 --force
 ```
 
 ## 発展: 自分でもっと年を増やしてみる

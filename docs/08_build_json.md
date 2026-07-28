@@ -115,7 +115,7 @@ with open("data/processed/migration_2024.json", "w", encoding="utf-8") as file:
 ## 実際に動かしてみる
 
 ```
-uv run python steps/08_build_json.py
+python steps/08_build_json.py
 ```
 
 `data/processed/migration_2024.json` ができます。エディタで開いて中身を眺めてみましょう。ファイルの先頭のほうに `"prefs"` や `"flows"` が見つかるはずです。

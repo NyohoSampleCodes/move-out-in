@@ -227,7 +227,7 @@ if __name__ == "__main__":
 これまでとは実行方法が少し違います。ファイルが1つできて終わり、ではなく、**サーバーが起動し続けます**。
 
 ```
-uv run python steps/11_visualize_circular.py
+python steps/11_visualize_circular.py
 ```
 
 実行すると、ターミナルに次のように表示されます。

@@ -38,10 +38,12 @@
 
 ## 実行方法
 
-Python の実行・パッケージ管理には [uv](https://docs.astral.sh/uv/) を使います。ライブラリを追加するときも `pip install` ではなく `uv add <package>` を使ってください。
+学習用テキストに載せる実行例は `python steps/02_variables.py` のように、`uv` を付けずに実行する形にします。ライブラリの追加など開発時のパッケージ管理には [uv](https://docs.astral.sh/uv/) を使い、`pip install` ではなく `uv add <package>` を使ってください。
+
+このリポジトリのコードがローカルで動くか確認するときは、依存関係をそろえるため `uv run --no-sync python ...` を使います。
 
 ```
-uv run python steps/02_variables.py
+python steps/02_variables.py
 ```
 
 ## コードを書くときの方針

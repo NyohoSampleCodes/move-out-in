@@ -97,7 +97,7 @@ plt.savefig("data/processed/trend.png")
 ## 実際に動かしてみる
 
 ```
-uv run python steps/12_multi_year.py
+python steps/12_multi_year.py
 ```
 
 `data/processed/migration_all.json` と `data/processed/trend.png` ができます。2023年のファイルがない状態なので、実行中に「2023 年のファイルが見つからないのでスキップします」と表示されるはずです。

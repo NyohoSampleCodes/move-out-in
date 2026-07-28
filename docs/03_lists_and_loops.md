@@ -62,7 +62,7 @@ print(total)
 ## 実際に動かしてみる
 
 ```
-uv run python steps/03_lists_and_loops.py
+python steps/03_lists_and_loops.py
 ```
 
 `steps/03_lists_and_loops.py` には、47 都道府県すべてのリストが入っています。このリストは、これから先のステップでも何度も使う「共通の並び順」なので、ここで見た形を覚えておいてください（北海道から沖縄県まで、都道府県コードの順番です）。

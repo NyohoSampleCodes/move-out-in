@@ -61,7 +61,7 @@ for i in range(len(in_counts)):
 ## 実際に動かしてみる
 
 ```
-uv run python steps/04_functions.py
+python steps/04_functions.py
 ```
 
 ## 演習
