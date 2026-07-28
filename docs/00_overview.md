@@ -26,9 +26,9 @@
 
 ```
 [e-Stat: 総務省統計局のデータ]
-        │  (06) ダウンロード（人の手で）
+        │  (06) e-Stat のページを見てダウンロード
         ▼
-   data/raw/*.xlsx          … 元データそのもの（Excel）
+   data/raw/*.xlsx          … 元データそのもの（Excel、Git 管理外）
         │  (07) openpyxl で読み込む
         ▼
    Python のリスト・辞書

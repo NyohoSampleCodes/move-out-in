@@ -45,7 +45,7 @@ uv run python steps/02_variables.py
 | --- | --- |
 | `docs/` | このテキスト |
 | `steps/` | 回ごとのサンプルコード |
-| `data/raw/` | ダウンロードした元データ（Excel） |
+| `data/raw/` | ダウンロードした元データ（Excel、Git 管理外） |
 | `data/processed/` | コードを実行して生成される JSON やグラフ |
 | `pyproject.toml` | 使う Python のバージョンやライブラリの一覧 |
 

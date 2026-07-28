@@ -12,3 +12,7 @@ wheels/
 # 生成される成果物（steps/ のコードを実行すれば再生成できるので管理しない）
 data/processed/*
 !data/processed/.gitkeep
+
+# e-Stat から取得する元データ（steps/06_get_data.py で再取得できる）
+data/raw/*
+!data/raw/.gitkeep

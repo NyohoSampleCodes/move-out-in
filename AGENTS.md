@@ -33,7 +33,7 @@
 
 - `docs/` — 学習用テキスト（読む順に番号付き）
 - `steps/` — 各回に対応する練習・サンプルコード
-- `data/raw/` — e-Stat からダウンロードした元データ（Excel、git 管理する）
+- `data/raw/` — e-Stat からダウンロードした元データ（Excel、Git 管理外。`steps/06_get_data.py` で再取得する）
 - `data/processed/` — コードから生成する JSON・画像・HTML（git 管理しない、再生成可能なため）
 
 ## 実行方法
